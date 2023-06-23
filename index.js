@@ -1,6 +1,6 @@
 function view() {
     var fileUrl = 'assets/PORTFOLIO.pdf';
-    var desiredFileName = 'My_Portfolio.pdf';
+    var desiredFileName = 'NM_Portfolio.pdf';
 
     var element = document.createElement('a');
     element.setAttribute('href', fileUrl);
