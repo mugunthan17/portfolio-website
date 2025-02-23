@@ -19,13 +19,21 @@ function Home() {
 
       {/* Subtitle */}
       <h1 className="mt-[20px] text-xl sm:text-2xl md:text-3xl text-[#D9D9D9] montserrat">
-      UI/UX Designer & Developer
+        UI/UX Designer & Developer
       </h1>
 
       {/* Download Resume Button */}
-      <a href="https://drive.google.com/file/d/1PoX_22W8hxX8GByD_DmilyZJfhYpi7Je/view?usp=sharing" download className="mt-6 montserrat">
-        <button className="flex items-center gap-4 px-6 py-3 text-lg sm:text-xl md:text-2xl text-[#D9D9D9] border border-[#D9D9D9] rounded-lg cursor-pointer ">
-          View Resume
+      <a
+        href="https://drive.google.com/uc?export=download&id=1PoX_22W8hxX8GByD_DmilyZJfhYpi7Je"
+        className="mt-6 montserrat"
+      >
+        <button className="flex items-center gap-4 px-6 py-3 text-lg sm:text-xl md:text-2xl text-[#D9D9D9] border border-[#D9D9D9] rounded-lg cursor-pointer">
+          Download Resume
+          <img
+            src={DownloadIcon}
+            alt="DownloadIcon"
+            className="h-[25px] md:h-[25px] sm:h-7 "
+          />
         </button>
       </a>
     </div>
