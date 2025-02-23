@@ -23,7 +23,7 @@ function Home() {
       </h1>
 
       {/* Download Resume Button */}
-      <a href="Mugunthan-N-Resume.pdf" download className="mt-6 montserrat">
+      <a href="/Mugunthan-N-Resume.pdf" download className="mt-6 montserrat">
         <button className="flex items-center gap-4 px-6 py-3 text-lg sm:text-xl md:text-2xl text-[#D9D9D9] border border-[#D9D9D9] rounded-lg cursor-pointer ">
           Download Resume
           <img
