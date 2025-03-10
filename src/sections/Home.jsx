@@ -24,7 +24,7 @@ function Home() {
 
       {/* Download Resume Button */}
       <a
-        href="https://drive.google.com/uc?export=download&id=1PoX_22W8hxX8GByD_DmilyZJfhYpi7Je"
+        href="https://drive.google.com/uc?export=download&id=17Fw4pSWZcVGBJJOcSkeNjJc9AMK0dkeQ"
         className="mt-6 montserrat"
       >
         <button className="flex items-center gap-4 px-6 py-3 text-lg sm:text-xl md:text-2xl text-[#D9D9D9] border border-[#D9D9D9] rounded-lg cursor-pointer">
